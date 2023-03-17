@@ -14,7 +14,6 @@ public class Lab1 {
         length = sc.nextInt();
         area = ((radius * radius) * Math.PI);
         volume = (area * length);
-        System.out.println(volume);
         System.out.format("%.1f", volume );
     }
 }
