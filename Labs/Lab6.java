@@ -31,7 +31,6 @@ public class Lab6 {
                 day = "Saturday"; 
                 break;
             }
-            //System.out.println(day);
         }
         else {
             System.out.println("Invalid year input");
@@ -51,7 +50,7 @@ public class Lab6 {
         }
         int leapFactor = (startYear/4) - (startYear/100) + (startYear/400);
         int dayNumber = (((365 * year + 31 * (month - 1) + date + leapFactor - startMonth) - 1)) % 7;
-
+        
         return dayNumber;
     }
 }
